@@ -1,0 +1,3 @@
+To compile GTerm, type "cd src && make"
+
+There is no "make install" step - just copy the binary somewhere to your path
