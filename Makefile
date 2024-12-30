@@ -20,7 +20,7 @@ default:	gterm
 #
 gterm:           $(OFILES)
 		@echo LD $@
-		@${CPP} ${CFLAGS} ${LFLAGS} $(OFILES) -o $@
+		@${CPP} ${CFLAGS} $(OFILES) ${LFLAGS} -o $@
 
 gterm.o:	gterm.c
 
